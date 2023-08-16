@@ -1,0 +1,30 @@
+header {
+	font-size: 48%;
+}
+
+h1 {
+	background-color: gray;
+	font-size: 36%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+p, body {
+	color: black;
+	font-size: 20px;
+	width: 200px;
+}
+
+#box {
+	background-color: lightgray;
+	padding: 10px 30px 10px 30px;
+	border: 10px solid black;
+	margin: 40px;
+	width: 300px;
+	}
+
+#content {
+	background-color: lightgray;
+}
+
+

@@ -12,9 +12,12 @@ header {
 	margin-bottom: 20px;
 }
 
+body {
+	float: center;
+}
+
 section{
 	clear: left;
-	clear: bottom;
 }
 
 h1 {
@@ -37,6 +40,10 @@ p, article {
 	font-size: 20px;
 }
 
+aside {
+
+}
+
 #box {
 	background-color: lightgray;
 	padding: 10px 30px 10px 30px;
@@ -44,8 +51,8 @@ p, article {
 	width: 25%;
 	height: 500px;
 	margin: 40px;
-	margin-top: 20px;
 	opacity: 50;
+	float: left;
 	}
 
 #content {

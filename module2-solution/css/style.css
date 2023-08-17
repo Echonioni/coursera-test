@@ -42,15 +42,11 @@ aside {
 	margin: 1.33%;
 }
 
-.row{
-	width: 100%;
-}
-
 #box1 {
 	background-color: #dedddc;
 	border: 1px solid black;
 	float: left;
-	margin: 1.33%;
+	margin: 1.5%;
 	overflow: hidden;
 }
 
@@ -58,7 +54,7 @@ aside {
 	background-color: #dedddc;
 	border: 1px solid black;
 	float: left;
-	margin: 1.33%;
+	margin: 1.5%;
 	overflow: hidden;
 }
 
@@ -66,7 +62,7 @@ aside {
 	background-color: #dedddc;
 	border: 1px solid black;
 	float: left;
-	margin: 1.33%;
+	margin: 1.5%;
 	overflow: hidden;
 }
 
@@ -96,15 +92,15 @@ aside {
 /*Desktop style*/
 @media (min-width: 992px) {
 	#box1 {
-		width: 30%;
+		width: 30.33%;
 		}
 
 	#box2 {
-		width: 30%;
+		width: 30.33%;
 	}
 
 	#box3 {
-		width: 30%;
+		width: 30.33%;
 	}
 
 	#content {
@@ -119,17 +115,20 @@ aside {
 @media (min-width: 768px) and (max-width: 991px) {
 	#box1 {
 		padding: 10px 30px 10px 30px;
-		width: 45%;
+		width: 47%;
+		margin-bottom: 1.5%;
 		}
 
 	#box2 {
 		padding: 10px 30px 10px 30px;
-		width: 45%;
+		width: 47%;
+		margin-bottom: 1.5%;
 	}
 
 	#box3 {
 		padding: 10px 30px 10px 30px;
-		width: 92.66%;
+		width: 97%;
+		margin-bottom: 1.5%;
 	}
 
 	#content {
@@ -145,16 +144,22 @@ aside {
 	#box1 {
 		padding: 10px 30px 10px 30px;
 		width: 90%;
+		margin-inline: 5%;
+		margin-bottom: 1.5%
 		}
 
 	#box2 {
 		padding: 10px 30px 10px 30px;
 		width: 90%;
+		margin-inline: 5%;
+		margin-bottom: 1.5%
 	}
 
 	#box3 {
 		padding: 10px 30px 10px 30px;
 		width: 90%;
+		margin-inline: 5%;
+		margin-bottom: 1.5%
 	}
 
 	#content {

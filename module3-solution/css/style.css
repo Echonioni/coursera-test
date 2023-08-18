@@ -1,53 +1,56 @@
-* {
-	font-family: Times New Roman;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-header {
-	font-size: 175%;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
 body {
-	width: 100%;
+	font-size: 16px
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
 }
 
-section{
-	font-size: 125%;
-	position: relative;
-	border: 1px solid black;
-	float: right;
-	top: -1px;
-	right: -1px;
+#logo-img {
+	background: url('../images/restaurant-logo_sm.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
 }
 
-h1 {
-	background-color: #efdddc;
-	font-size: 36px;
-	margin-top: 20px;
-	margin-bottom: 50px;
-	text-align: center;
+/** HEADER **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
 }
 
-p, article {
-	color: black;
-	font-size: 20px;
+.navbar-brand {
+	padding-top: 25px;
 }
 
-aside {
-	clear: both;
-	margin: 1.33%;
+.navbar-brand h1 { /* Restaurant name*/
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+.navbar-brand a, a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p {
+	color: #000;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	margin-top: 15px;
+}
+.navbar-brand p span {
+	vertical-align: middle;
 }
 
 #box1 {
 	background-color: #dedddc;
 	border: 1px solid black;
 	float: left;
-	margin: 1.5%;
 	overflow: hidden;
 }
 
@@ -55,7 +58,6 @@ aside {
 	background-color: #dedddc;
 	border: 1px solid black;
 	float: left;
-	margin: 1.5%;
 	overflow: hidden;
 }
 
@@ -63,12 +65,12 @@ aside {
 	background-color: #dedddc;
 	border: 1px solid black;
 	float: left;
-	margin: 1.5%;
 	overflow: hidden;
 }
 
 #content {
 	text-align: left;
+	margin-right: ;
 	overflow: auto;
 }
 
@@ -92,21 +94,9 @@ aside {
 
 /*Desktop style*/
 @media (min-width: 992px) {
-	#box1 {
-		width: 30.33%;
-		}
-
-	#box2 {
-		width: 30.33%;
-	}
-
-	#box3 {
-		width: 30.33%;
-	}
-
 	#content {
 		padding: 10px 10px 10px 10px;
-		width: 90%;
+		width: 100%;
 		margin: 20px;
 		margin-top: 20px;
 	}
